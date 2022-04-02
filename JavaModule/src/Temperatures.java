@@ -7,8 +7,8 @@ public class Temperatures {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the temperature (in Celsius): ");
         inputTemp = scanner.nextDouble();
+        //scanner.close();
         menu();
-        scanner.close();
     }
 
     private void menu(){
@@ -19,10 +19,10 @@ public class Temperatures {
         switch (choice) {
             case 1 -> System.out.println(toKelvin(inputTemp) + "°K");
             case 2 -> System.out.println(toFahrenheit(inputTemp)+"°F");
-            case 3 -> MainMenu.main(null);
+            case 3 -> new Menu().menu();
             default -> menu();
         }
-        scanner.close();
+        //scanner.close();
     }
 
     private String toKelvin(double inputTemp){

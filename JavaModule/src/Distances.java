@@ -8,7 +8,7 @@ public class Distances {
         System.out.println("Enter the distance (in meters): ");
         inputDistance = scanner.nextDouble();
         menu();
-        scanner.close();
+        //scanner.close();
     }
 
     private void menu(){
@@ -20,10 +20,10 @@ public class Distances {
             case 1 -> System.out.println(toMiles(inputDistance) + " miles.");
             case 2 -> System.out.println(toInches(inputDistance) + " inches.");
             case 3 -> System.out.println(toFeet(inputDistance) + " feet.");
-            case 4 -> MainMenu.main(null);
+            case 4 -> new Menu().menu();
             default -> menu();
         }
-        scanner.close();
+        //scanner.close();
     }
 
     private String toMiles(double inputDistance){
