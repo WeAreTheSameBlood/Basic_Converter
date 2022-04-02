@@ -8,13 +8,9 @@ public class MainMenu {
         System.out.println("What do yiu want to convert? \n1 - Temperatures; 2 - Distance;");
         int choice = scanner.nextInt();
         switch (choice) {
-            case 1 -> new Temperatures().choiceTemperature();
-            case 2 -> new Distances();
+            case 1 -> new Temperatures().choice();
+            case 2 -> new Distances().choice();
         }
         scanner.close();
     }
-
 }
-
-
-
