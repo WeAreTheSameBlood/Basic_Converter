@@ -13,7 +13,8 @@ public class Temperatures {
 
     private void menu(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Convert to (enter a number): \n1 - Kelvin, 2 - Fahrenheit, 3 - Bach to menu.");
+        System.out.println("Convert to (enter a number):" +
+                "\n1 - to Kelvin, 2 - to Fahrenheit, 3 - Back to menu.");
         int choice = scanner.nextInt();
         switch (choice) {
             case 1 -> System.out.println(toKelvin(inputTemp) + "°K");
