@@ -2,17 +2,15 @@ import java.util.Scanner;
 
 public class Temperatures {
     private double inputTemp, outputTemp;
+    Scanner scanner = new Scanner(System.in);
 
     public void choice() {
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the temperature (in Celsius): ");
         inputTemp = scanner.nextDouble();
-        //scanner.close();
         menu();
     }
 
     private void menu(){
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Convert to (enter a number):" +
                 "\n1 - to Kelvin, 2 - to Fahrenheit, 3 - Back to menu.");
         int choice = scanner.nextInt();
@@ -22,7 +20,6 @@ public class Temperatures {
             case 3 -> new Menu().menu();
             default -> menu();
         }
-        //scanner.close();
     }
 
     private String toKelvin(double inputTemp){

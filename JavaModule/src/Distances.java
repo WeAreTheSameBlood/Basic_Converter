@@ -2,17 +2,15 @@ import java.util.Scanner;
 
 public class Distances {
     private double inputDistance, outputDistance;
+    Scanner scanner = new Scanner(System.in);
 
     public void choice() {
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the distance (in meters): ");
         inputDistance = scanner.nextDouble();
         menu();
-        //scanner.close();
     }
 
     private void menu(){
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Convert to (enter a number):" +
                 "\n1 - to Miles, 2 - to Feet, 3 - to Inches, 4 - Back to menu.");
         int choice = scanner.nextInt();
@@ -23,7 +21,6 @@ public class Distances {
             case 4 -> new Menu().menu();
             default -> menu();
         }
-        //scanner.close();
     }
 
     private String toMiles(double inputDistance){
