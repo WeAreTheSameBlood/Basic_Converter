@@ -15,8 +15,8 @@ public class Temperatures {
                 "\n1 - to Kelvin, 2 - to Fahrenheit, 3 - Back to menu.");
         int choice = scanner.nextInt();
         switch (choice) {
-            case 1 -> System.out.println(toKelvin(inputTemp) + "°K");
-            case 2 -> System.out.println(toFahrenheit(inputTemp)+"°F");
+            case 1 -> System.out.println(toKelvin(inputTemp));
+            case 2 -> System.out.println(toFahrenheit(inputTemp));
             case 3 -> new Menu().menu();
             default -> menu();
         }
@@ -24,11 +24,13 @@ public class Temperatures {
 
     private String toKelvin(double inputTemp){
         outputTemp = 273.15 + inputTemp;
-        return String.valueOf(outputTemp);
+        new SaveToHistory().save(outputTemp + "°K");
+        return outputTemp + "°K";
     }
 
     private String toFahrenheit(double inputTemp){
         outputTemp = (1.8 * inputTemp) + 32;
-        return String.valueOf(outputTemp);
+        new SaveToHistory().save(outputTemp + "°F");
+        return outputTemp + "°F";
     }
 }
