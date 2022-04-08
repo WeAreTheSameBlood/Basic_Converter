@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="300.0" style="-fx-background-color: gray; -fx-border-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hlybchenko.gui.HelloController">
+   <children>
+      <Button id="buttonZero" fx:id="buttonZero" layoutY="500.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: gray; -fx-cursor: hand;" text="0" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button id="buttonNine" fx:id="buttonNine" layoutX="200.0" layoutY="200.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: gray; -fx-cursor: hand;" text="9" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button id="buttonFour" fx:id="buttonFour" layoutY="300.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: gray; -fx-cursor: hand;" text="4" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button id="buttonRemove" fx:id="buttonRemove" layoutX="200.0" layoutY="500.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: gray; -fx-cursor: hand;" text="&lt;" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button id="buttonEight" fx:id="buttonEight" layoutX="100.0" layoutY="200.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: gray; -fx-cursor: hand;" text="8" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button id="buttonSix" fx:id="buttonSix" layoutX="200.0" layoutY="300.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: gray; -fx-cursor: hand;" text="6" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button id="buttonFive" fx:id="buttonFive" layoutX="100.0" layoutY="300.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: gray; -fx-cursor: hand;" text="5" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button id="buttonTwo" fx:id="buttonTwo" layoutX="100.0" layoutY="400.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: gray; -fx-cursor: hand;" text="2" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button id="buttonThree" fx:id="buttonThree" layoutX="200.0" layoutY="400.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: gray; -fx-cursor: hand;" text="3" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button id="buttonDot" fx:id="buttonDot" layoutX="100.0" layoutY="500.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: gray; -fx-cursor: hand;" text="." textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button id="buttonOne" fx:id="buttonOne" layoutY="400.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: gray; -fx-cursor: hand;" text="1" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <Button id="buttonSeven" fx:id="buttonSeven" layoutY="200.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: gray; -fx-cursor: hand;" text="7" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Button>
+      <TextField id="textIOdisplay" fx:id="textIOdisplay" prefHeight="150.0" prefWidth="300.0" style="-fx-background-color: gray; -fx-border-color: black;">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </TextField>
+      <Button id="buttonTemperClass" fx:id="buttonTemperClass" layoutY="150.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: gray;" text="Temperatures" textFill="WHITE" />
+      <Button id="buttonDistancesClass" fx:id="buttonDistancesClass" layoutX="150.0" layoutY="150.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: gray;" text="Distances" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Basic_Converter.iml" filepath="$PROJECT_DIR$/.idea/Basic_Converter.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConverterLogic/ConverterLogic.iml" filepath="$PROJECT_DIR$/ConverterLogic/ConverterLogic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFX_GUI/JavaFX_GUI.iml" filepath="$PROJECT_DIR$/JavaFX_GUI/JavaFX_GUI.iml" />
     </modules>
   </component>
 </project>
