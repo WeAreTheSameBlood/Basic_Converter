@@ -2,7 +2,7 @@ import java.io.*;
 
 public class SaveToHistory {
     void save(String toSave) {
-        File saveFile = new File("convertHistory.txt");
+        File saveFile = new File("ConverterLogic/convertHistory.txt");
         PrintWriter pw = null;
         try {
             if (saveFile.exists() == false){ saveFile.createNewFile(); }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="JavaModule" options="--add-modules java.base" />
+      <module name="ConverterLogic" options="--add-modules java.base" />
     </option>
   </component>
 </project>

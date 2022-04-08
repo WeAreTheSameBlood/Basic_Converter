@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Basic_Converter.iml" filepath="$PROJECT_DIR$/.idea/Basic_Converter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaModule/JavaModule.iml" filepath="$PROJECT_DIR$/JavaModule/JavaModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConverterLogic/ConverterLogic.iml" filepath="$PROJECT_DIR$/ConverterLogic/ConverterLogic.iml" />
     </modules>
   </component>
 </project>
