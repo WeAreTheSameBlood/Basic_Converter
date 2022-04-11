@@ -6,7 +6,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="300.0" style="-fx-background-color: gray; -fx-border-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hlybchenko.gui.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="300.0" style="-fx-background-color: gray; -fx-border-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hlybchenko.gui.MainArea">
    <children>
       <Button id="buttonZero" fx:id="buttonZero" layoutY="500.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: gray; -fx-cursor: hand;" text="0" textFill="WHITE">
          <font>
@@ -68,7 +68,7 @@
             <Font size="45.0" />
          </font>
       </Button>
-      <TextField id="textIOdisplay" fx:id="textIOdisplay" prefHeight="150.0" prefWidth="300.0" style="-fx-background-color: gray; -fx-border-color: black;">
+      <TextField id="textIOdisplay" fx:id="textIODisplay" prefHeight="150.0" prefWidth="300.0" style="-fx-background-color: gray; -fx-border-color: black;">
          <font>
             <Font size="50.0" />
          </font>
